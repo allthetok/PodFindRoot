@@ -1,0 +1,146 @@
+.videoCard {
+    width: 250px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.videoImg {
+    height: 186px;
+    max-height: 186px;
+    max-width: 186px;
+    width: 186px;
+    margin-bottom: 0;
+    cursor: pointer; 
+}
+.videoData {
+    display: flex;
+    padding-top: 10px;
+}
+.channelDetails {
+    margin-left: 10px;
+}
+
+.channelDetails p{
+    margin-top: -18px;
+    font-size: 14px;
+    color: rgb(122,122,122);
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+
+.channelDetails h5{
+    margin-top: 5px;
+    color: rgb(26,26,26);
+}
+
+.duration {
+    background-color: rgb(31,31,31);
+    width: 40px;
+    height: 18px;
+    color: white;
+    border-radius: 3px;
+    /* position: relative;
+    top: 168px;
+    right: 65px; */
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.likesAdd {
+    position: absolute;
+    background-color: black;
+    color: white!important;
+    right: auto;
+    left: 156px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px!important;
+    padding: 3px 3px;
+    opacity: 0.8;
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+}
+
+.ptop {
+    top: 10px;
+}
+
+.likesDelete {
+    position: absolute;
+    top: 0px;
+    right: 32px;
+    left: 162px;
+    background-color: black;
+    color: white!important;
+    padding: 2px 2px; 
+    opacity: 0.8;
+    align-items: center;
+    display: flex;
+}
+
+.likesDelete:hover {
+    color: rgb(83,83,83)!important;
+    cursor: pointer;
+}
+
+
+.videoIcon {
+    font-size: 20px!important;
+}
+
+.twitter {
+    width: 19px;
+    height: 19px;
+}
+
+.videoCard:hover .likesAdd {
+    display: flex;
+}
+
+.moreIcon {
+    color: rgb(131,131,131)!important;
+    margin-top: 0px;
+    margin-left: -15px;
+}
+
+
+.moreIcon:hover {
+    color: rgb(83,83,83)!important;
+    cursor: pointer;
+}
+
+.c_name:hover{
+    color: rgb(59,59,59);
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.title {
+    text-align: left;
+    width: 186px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    overflow: hidden;
+    max-height: 2.2rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.aired {
+    margin-top: -5px;
+    text-align: left;
+}
+
+.moreDetails {
+    color: #f1f1f1;
+    font-size: 16px;
+    line-height: 2.2rem;
+}

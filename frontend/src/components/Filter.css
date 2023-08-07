@@ -1,0 +1,17 @@
+.filterComp {
+    outline: 0;
+}
+
+.filterWrap {
+    padding-bottom: 25px;
+    padding-top: 20px;
+    text-align: center;
+    background: #0b1528;
+}
+
+.autoComp {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+ 
+}

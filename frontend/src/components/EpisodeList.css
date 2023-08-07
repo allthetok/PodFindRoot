@@ -1,0 +1,14 @@
+ul {
+    display: block;
+    list-style-type: none;
+}
+
+.episodeContainer {
+    background: var(--background-eve);
+    --background-eve: #0b1528;
+    font-family: 'Roboto', sans-serif;
+}
+
+.regular {
+    color: #e1e6ef;
+}
