@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "outDir": "dist",
     "jsx": "preserve",
     "module": "esnext",
     "esModuleInterop": true,

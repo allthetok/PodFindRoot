@@ -49,7 +49,7 @@ const useSearch = (userId, finalSearch) => {
 		method: 'post',
 		url: 'https://api.podchaser.com/graphql',
 		headers: {
-			'Authorization': `Bearer ${process.env.REACT_APP_DEVELOPMENT_TOKEN}`,
+			'Authorization': `Bearer ${process.env.REACT_APP_TOKEN}`,
 			'Content-Type': 'application/json'
 		},
 		data : finalSearchData
